@@ -96,6 +96,35 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+
+          <div className="mt-24 flex flex-col h-fit gap-20">
+            <ul className="uppercase">
+              {links.map(({ id, link }) => (
+                <Link key={id} href={`/#${link}`}>
+                  <li className="py-4 text-2xl tracking-wider cursor-pointer">
+                    {link}
+                  </li>
+                </Link>
+              ))}
+            </ul>
+
+            <div>
+              <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                  <FaLinkedin size={25} />
+                </div>
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                  <FaTwitter size={25} />
+                </div>
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                  <FaFacebook size={25} />
+                </div>
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                  <FaGithub size={25} />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
