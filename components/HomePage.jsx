@@ -13,7 +13,7 @@ const HomePage = () => {
         </div>
 
         <h1 className="uppercase font-bold text-gray-700 text-7xl">
-          full stack developer
+          back end developer
         </h1>
 
         <p className="text-gray-600 text-xl max-w-sm mx-auto">
