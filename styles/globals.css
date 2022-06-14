@@ -7,6 +7,6 @@
 @layer base {
   html {
     font-family: 'Raleway', sans-serif;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
   }
 }
